@@ -1,4 +1,4 @@
-# Pincline 
+# Pinclone 
 
 This is the sample application for a very basic Pinterest clone.
 
