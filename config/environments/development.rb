@@ -37,4 +37,7 @@ Pinclone::Application.configure do
 
   # URL included in outbound email to users
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  # Line of code to make the paperclip gem work
+  Paperclip.options[:command_path] = "/usr/local/bin/"
 end
